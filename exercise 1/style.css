@@ -1,0 +1,61 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+main {
+	display: flex;
+	justify-content: space-between;
+	height:100vh;
+}
+main .sidebar {
+	background-color: rgb(188, 134, 60);
+	display: flex;
+}
+main .sidebar .body {
+	padding: 10px;
+}
+
+main .sidebar .save-btn {
+	border: 0;
+	position: fixed;
+	bottom: 0;
+	width: 220px;
+	height: 50px;
+	font-size: 20px;
+	background-color: rgb(0, 88, 38);
+	color: white;
+}
+
+main .content {
+	text-align: center;
+	flex-grow: 1;
+	padding: 0px 50px;
+	font-size: 40px;
+	background-color: rgb(1, 91, 126);
+}
+
+main .content h1{
+	margin-bottom: 0;
+	margin-top: 10px;
+}
+main .content h3{
+	margin-top: 0;
+}
+
+main .content .element {
+	margin-top: 40px;
+	margin-bottom: 60px;
+}
+main .content .element .circle-element {
+	border: 2px solid black;
+	border-radius: 100%;
+	padding: 15px 30px;
+	margin-right: 15px;
+	background-color: rgb(230, 230, 230);
+}
+main .content .element .element-text {
+	background-color: white;
+	border: 2px solid black;
+	border-radius: 10px;
+	padding: 15px 200px 15px 15px;
+}
